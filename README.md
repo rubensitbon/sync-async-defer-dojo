@@ -16,7 +16,9 @@ Defer is going to start the download of the script asynchronously and execute it
 
 ## Result
 
-"A good strategy is to use async when possible, and then defer when async isn’t an option." Digital OCean
+"A good strategy is to use async when possible, and then defer when async isn’t an option." Digital Ocean
+
+Link to the sandbox : https://codesandbox.io/s/sync-async-defer-dojo-t2q8z
 
 |                                | With 3 sync tags | With 3 async tags | With 3 defer tags |
 | ------------------------------ | ---------------- | ----------------- | ----------------- |
