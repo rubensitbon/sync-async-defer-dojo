@@ -14,6 +14,24 @@ Async is going to start the download of the script asynchronously and execute it
 
 Defer is going to start the download of the script asynchronously and execute it as soon the page is loaded
 
+## The Dojo
+
+### I) Read the section above
+
+### II) Open the sandbox
+
+[Click here](https://codesandbox.io/s/sync-async-defer-dojo-t2q8z) and open the console at the bottom. Or click on the top right button to open the sandbox in a dedicated page
+
+### III) Play with the sandbox
+
+- In the HTML you can update the defer and async properties to see the impact on the loading time of the DOM
+
+- You can also add a lot of html to increase the loading time and see the impact on the DOMLoadingTime
+
+- Guess the best solution for your project and ask an expert to confirm
+
+### IV) Read the section bellow
+
 ## Result
 
 "A good strategy is to use async when possible, and then defer when async isn’t an option." Digital Ocean
