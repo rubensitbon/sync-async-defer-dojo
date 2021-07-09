@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <script>
+      window.variable = 0;
+      window.startTime = new Date();
+    </script>
+    <!-- change property to nothing or "async" or "defer" -->
+    <script src="index.js"></script>
+    <script src="index.js" async></script>
+    <script src="index.js" defer></script>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        console.log("DOMContentLoaded", new Date() - window.startTime);
+      });
+    </script>
+  </head>
+  <body>
+    <h1>
+      This is a static template, there is no bundler or bundling involved!
+    </h1>
+  </body>
+</html>
